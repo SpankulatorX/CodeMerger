@@ -1,0 +1,11 @@
+merge
+=====
+
+.. toctree::
+   :maxdepth: 4
+
+   conftest
+   gui
+   merge
+   merger_utils
+   test_dummy

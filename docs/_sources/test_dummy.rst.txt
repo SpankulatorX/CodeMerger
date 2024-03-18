@@ -1,0 +1,7 @@
+test\_dummy module
+==================
+
+.. automodule:: test_dummy
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>merge &#8212; File Merger  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="conftest module" href="conftest.html" />
+    <link rel="prev" title="Welcome to File Merger’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="merge">
+<h1>merge<a class="headerlink" href="#merge" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="conftest.html">conftest module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="conftest.html#conftest.qapp"><code class="docutils literal notranslate"><span class="pre">qapp()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gui.html">gui module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gui.html#gui.FileMergerApp"><code class="docutils literal notranslate"><span class="pre">FileMergerApp</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.browse_files"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.browse_files()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.initialize_ui"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.initialize_ui()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.merge_files"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.merge_files()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.on_extra_info_error"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.on_extra_info_error()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.on_extra_info_generated"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.on_extra_info_generated()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.on_merge_completed"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.on_merge_completed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.print_database_info"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.print_database_info()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.start_generate_extra_info_thread"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.start_generate_extra_info_thread()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.toggle_include_sphinx"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.toggle_include_sphinx()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.FileMergerApp.toggle_new_page"><code class="docutils literal notranslate"><span class="pre">FileMergerApp.toggle_new_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gui.html#gui.GenerateExtraInfoThread"><code class="docutils literal notranslate"><span class="pre">GenerateExtraInfoThread</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.GenerateExtraInfoThread.error_occurred"><code class="docutils literal notranslate"><span class="pre">GenerateExtraInfoThread.error_occurred</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.GenerateExtraInfoThread.extra_info_generated"><code class="docutils literal notranslate"><span class="pre">GenerateExtraInfoThread.extra_info_generated</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="gui.html#gui.GenerateExtraInfoThread.generate_extra_info"><code class="docutils literal notranslate"><span class="pre">GenerateExtraInfoThread.generate_extra_info()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="merge.html">merge module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="merge.html#merge.run_gui"><code class="docutils literal notranslate"><span class="pre">run_gui()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="merger_utils.html">merger_utils module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="merger_utils.html#merger_utils.extract_text_from_html"><code class="docutils literal notranslate"><span class="pre">extract_text_from_html()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="merger_utils.html#merger_utils.generate_docs"><code class="docutils literal notranslate"><span class="pre">generate_docs()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="merger_utils.html#merger_utils.get_system_info"><code class="docutils literal notranslate"><span class="pre">get_system_info()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="merger_utils.html#merger_utils.run_tests"><code class="docutils literal notranslate"><span class="pre">run_tests()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="test_dummy.html">test_dummy module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="test_dummy.html#test_dummy.app"><code class="docutils literal notranslate"><span class="pre">app()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="test_dummy.html#test_dummy.test_merge_files_no_output_file"><code class="docutils literal notranslate"><span class="pre">test_merge_files_no_output_file()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="test_dummy.html#test_dummy.test_merge_files_success"><code class="docutils literal notranslate"><span class="pre">test_merge_files_success()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="test_dummy.html#test_dummy.test_print_database_info"><code class="docutils literal notranslate"><span class="pre">test_print_database_info()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">File Merger</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">merge</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="conftest.html">conftest module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gui.html">gui module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="merge.html">merge module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="merger_utils.html">merger_utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="test_dummy.html">test_dummy module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to File Merger’s documentation!</a></li>
+      <li>Next: <a href="conftest.html" title="next chapter">conftest module</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Your Name.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/modules.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

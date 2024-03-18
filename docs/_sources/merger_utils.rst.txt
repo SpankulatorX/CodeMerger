@@ -1,0 +1,7 @@
+merger\_utils module
+====================
+
+.. automodule:: merger_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
